@@ -25,7 +25,7 @@ export default function Hero() {
                             Hi, I'm
                         </span>
                         <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold text-neutral-700 dark:text-white leading-relaxed lg:leading-snug">
-                            <Highlight className="text-black dark:text-white whitespace-nowrap px-4 py-1">
+                            <Highlight className="text-black dark:text-white px-4 py-1">
                                 {name}
                             </Highlight>
                         </h1>
