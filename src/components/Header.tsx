@@ -27,7 +27,7 @@ export default function Header() {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <Link href="/" className="text-xl font-bold tracking-tight flex items-center gap-1 group z-50">
                     <span className="w-8 h-8 rounded-lg bg-violet-600 text-white flex items-center justify-center font-bold text-lg group-hover:scale-110 transition-transform">H</span>
-                    <span className="text-slate-900 group-hover:text-violet-600 transition-colors">Eranhikkade</span>
+                    <span className={cn("transition-colors", scrolled ? "text-slate-900" : "text-white")}>Eranhikkade</span>
                 </Link>
 
                 {/* Desktop Nav */}
@@ -36,7 +36,10 @@ export default function Header() {
                         <Link
                             key={item}
                             href={`#${item.toLowerCase()}`}
-                            className="px-4 py-2 text-sm font-medium text-slate-600 hover:text-violet-600 hover:bg-violet-50 rounded-lg transition-all"
+                            className={cn(
+                                "px-4 py-2 text-sm font-medium rounded-lg transition-all",
+                                scrolled ? "text-slate-600 hover:text-violet-600 hover:bg-violet-50" : "text-slate-300 hover:text-white hover:bg-white/10"
+                            )}
                         >
                             {item}
                         </Link>

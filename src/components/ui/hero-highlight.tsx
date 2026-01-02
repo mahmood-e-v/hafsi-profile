@@ -34,13 +34,16 @@ export const HeroHighlight = ({
     return (
         <div
             className={cn(
-                "relative h-[40rem] flex items-center bg-white dark:bg-black justify-center w-full group",
+                "relative h-[40rem] flex items-center bg-black justify-center w-full group",
                 containerClassName
             )}
             onMouseMove={handleMouseMove}
         >
-            <div className="absolute inset-0 bg-dot-thick-neutral-300 dark:bg-dot-thick-neutral-800 pointer-events-none opacity-20" />
-            <div className="absolute inset-0 pointer-events-none bg-dot-thick-indigo-500 dark:bg-dot-thick-indigo-500 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+            <div className="absolute inset-0 bg-dot-thick-neutral-800 pointer-events-none opacity-20" />
+            <div className="absolute inset-0 pointer-events-none bg-dot-thick-indigo-500 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+
+            {/* Mobile Gradient Fallback (since hover doesn't work on mobile) */}
+            <div className="absolute inset-0 md:hidden bg-gradient-to-b from-violet-100/50 via-transparent to-blue-100/50 pointer-events-none" />
 
             {/* Background Mask - The Spotlight Effect */}
             <div

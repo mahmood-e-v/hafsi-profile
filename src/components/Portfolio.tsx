@@ -123,8 +123,8 @@ export default function Portfolio() {
                                             <span className="font-medium text-slate-900">Confidential</span>
                                         </div>
                                         <div className="flex justify-between">
-                                            <span className="text-slate-500">Year</span>
-                                            <span className="font-medium text-slate-900">2023</span>
+                                            <span className="text-slate-500">Date</span>
+                                            <span className="font-medium text-slate-900">{selectedProject.date || "2024"}</span>
                                         </div>
                                         <div className="flex justify-between">
                                             <span className="text-slate-500">Tools</span>

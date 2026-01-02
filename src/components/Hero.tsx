@@ -21,17 +21,17 @@ export default function Hero() {
                 >
                     {/* Main Text Block - Left Aligned but Centered in View */}
                     <div className="text-left">
-                        <span className="text-4xl md:text-7xl lg:text-8xl font-bold text-neutral-700 dark:text-white block mb-2 ml-1">
+                        <span className="text-4xl md:text-7xl lg:text-8xl font-bold text-white block mb-2 ml-1">
                             Hi, I'm
                         </span>
-                        <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold text-neutral-700 dark:text-white leading-relaxed lg:leading-snug">
-                            <Highlight className="text-black dark:text-white px-4 py-1">
+                        <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold text-white leading-relaxed lg:leading-snug">
+                            <Highlight className="text-white px-4 py-1">
                                 {name}
                             </Highlight>
                         </h1>
                     </div>
 
-                    <h2 className="text-xl md:text-3xl text-neutral-600 dark:text-neutral-300 mt-8 font-medium text-center">
+                    <h2 className="text-xl md:text-3xl text-neutral-300 mt-8 font-medium text-center">
                         {role}
                     </h2>
 

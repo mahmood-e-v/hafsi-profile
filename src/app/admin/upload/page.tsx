@@ -8,6 +8,7 @@ export default function UploadPage() {
     const [title, setTitle] = useState("");
     const [category, setCategory] = useState("");
     const [description, setDescription] = useState("");
+    const [dateText, setDateText] = useState("");
     const [uploading, setUploading] = useState(false);
     const [snippet, setSnippet] = useState<string | null>(null);
     const [previewUrl, setPreviewUrl] = useState<string | null>(null);
@@ -44,6 +45,7 @@ export default function UploadPage() {
             id: ${Date.now()},
             title: "${title}",
             category: "${category}",
+            date: "${dateText}",
             image: "${data.filePath}",
             description: "${description.replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/"/g, '\\"')}"
         },`;
@@ -126,6 +128,17 @@ export default function UploadPage() {
                                     <img src={previewUrl} alt="Preview" className="object-cover w-full h-full" />
                                 </div>
                             )}
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium text-gray-400 mb-2">Completion Date</label>
+                            <input
+                                type="text"
+                                value={dateText}
+                                onChange={(e) => setDateText(e.target.value)}
+                                className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none transition-all"
+                                placeholder="e.g. March 15, 2025"
+                            />
                         </div>
 
                         <button
