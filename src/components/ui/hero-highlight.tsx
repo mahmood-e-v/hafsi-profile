@@ -70,7 +70,7 @@ export const Highlight = ({
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             initial={{
-                backgroundSize: "0% 100%",
+                backgroundSize: "100% 100%",
                 backgroundPosition: "0% center",
             }}
             animate={{
