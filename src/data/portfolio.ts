@@ -79,5 +79,37 @@ export const portfolioData = {
             image: "/uploads/WhatsApp_Image_2026-01-02_at_2.29.24_PM.jpeg",
             description: "A seasonal greeting poster designed for Grace Valley Indian School to celebrate the commencement of Ramadan. The goal was to create a minimalist yet luxurious visual that conveys peace and spiritual enlightenment.\n\nKey Design Features:\n\nVisual Identity: Centers on a sophisticated \"Ramadan Kareem\" Arabic calligraphy script, serving as the focal point of the composition.\n\nLighting & Texture: Features highly detailed, 3D-rendered gold lanterns with realistic light-bloom effects to create warmth and depth.\n\nBackground Design: Uses a subtle, geometric Islamic pattern overlay on a cream-to-white gradient, maintaining a clean and modern \"Airy\" feel.\n\nTypography: Complements the traditional calligraphy with a modern, spaced-out serif font for the school name and a poetic, elegant typeface for the closing blessing."
         },
+        {
+            id: 1767466676659,
+            title: "\"Salik\" Conceptual Logo Design",
+            category: "Brand Identity / Logo Design / Minimalist Illustration",
+            date: "",
+            image: "/uploads/WhatsApp_Image_2026-01-02_at_9.13.53_PM.jpeg",
+            description: "A sleek, modern logo designed for \"Salik,\" inspired by urban infrastructure and the concept of progress. The design utilizes negative space and sharp geometric shapes to create a memorable and impactful visual identity.\n\nKey Design Features:\n\nIconography: Incorporates a winding road leading into a silhouette of the Dubai skyline, symbolizing connectivity, travel, and the city's architectural identity.\n\nShape Language: The central graphic is housed within a bold, upward-pointing arrow, reinforcing themes of growth, direction, and forward movement.\n\nColor Palette: A sophisticated monochromatic scheme (Black, White, and Slate Grey) that ensures versatility across various digital and print applications.\n\nTypography: Balanced with a clean, sans-serif English font and traditional Arabic script to reflect the bilingual and cosmopolitan nature of the UAE."
+        },
+           {
+            id: 1767466969297,
+            title: "Salik Urban Identity Concept",
+            category: "Brand Identity / Vector Illustration / Wayfinding Design",
+            date: "",
+            image: "/uploads/WhatsApp_Image_2026-01-02_at_9.13.54_PM_(1).jpeg",
+            description: "A high-contrast visual identity project for Salik, focusing on the intersection of urban mobility and the Dubai skyline. This design emphasizes depth and perspective to create a sense of movement toward a destination.\n\nKey Design Features:\n\nPerspective & Depth: Uses a strong one-point perspective with a receding roadway to guide the viewer’s eye toward the city’s iconic landmarks.\n\nColor Psychology: Switched to a high-visibility orange and black palette, commonly associated with transportation, safety, and energy.\n\nIntegrated Iconography: Features a map-pin locator as a central element, reinforcing the brand's connection to navigation and GPS technology.\n\nGraphic Style: Employs a flat, vector-silhouette style for the architecture (including the Burj Khalifa and Burj Al Arab) to ensure the design remains clean and scalable."
+        },
+        {
+            id: 1767467112628,
+            title: "Dubai Skyline Wordmark Integration",
+            category: "Brand Identity / Logo Design / Creative Typograph",
+            date: "",
+            image: "/uploads/WhatsApp_Image_2026-01-02_at_9.13.54_PM.jpeg",
+            description: "A creative typography project that integrates the Dubai skyline and Salik branding into a unified \"DUBAI\" wordmark. This design demonstrates the ability to blend complex vector illustrations with bold lettering to create a high-impact, localized brand identity.\n\nKey Design Features:\n\nTypographic Masking: The skyline is meticulously silhouetted to flow out of the \"DUBAI\" text, making the city’s architecture an organic part of the letterforms.\n\nNegative Space: Cleverly utilizes the letter \"A\" as a frame for a perspective road and location pin, seamlessly tying in the Salik service theme.\n\nCohesive Palette: Uses a consistent \"Traffic Orange\" and Black color scheme to ensure the brand is instantly recognizable and professional.\n\nSymbolism: Balances iconic architecture (like the Burj Khalifa) with infrastructure symbols to tell a story of a modern, connected city."
+        },
+        {
+            id: 1767467382033,
+            title: "Madrasa Admission Announcement",
+            category: "Print Media / Educational Outreach / Bilingual Layout Design",
+            date: "March, 15,2025",
+            image: "/uploads/WhatsApp_Image_2026-01-02_at_2.24.51_PM.jpeg",
+            description: "A promotional admission flyer designed for Hadia Madrasa, Al Ain, aimed at local families. The project required a clean, informative layout that balances high-quality photography with clear Malayalam and Arabic text to effectively communicate school offerings.\n\nKey Design Features:\n\nVisual Hierarchy: Features a professional, high-resolution image of a student to establish an emotional connection, while the bold blue header immediately draws attention to the \"Admissions Open\" message.\n\nBilingual Integration: Successfully integrates Malayalam typography for the primary information alongside Arabic elements within the official logo, ensuring accessibility for the target demographic.\n\nInformational Clarity: Utilizes a structured bullet-point system to highlight key school features, such as spacious classrooms and Quranic training.\n\nCall to Action: Includes a clearly defined footer section with high-contrast buttons for contact details and social integration, designed for quick user engagement."
+        },
     ],
 };
